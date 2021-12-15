@@ -1,0 +1,29 @@
+header {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.5)),
+    url(/media/istockphoto-1294021851-1024x1024.jpg) no-repeat center
+      center/cover;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-inner {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-text {
+  margin: 0%;
+  background-color: white;
+  border: #a7c4bc;
+  border-style: groove;
+  border-width: 5px;
+  color: #a7c4bc;
+  font-family: "Poppins", sans-serif;
+}

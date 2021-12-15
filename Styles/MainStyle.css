@@ -1,0 +1,20 @@
+/* Color palette https://colorhunt.co/palette/2f5d625e8b7ea7c4bcdfeeea */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+:root {
+  --primary-color: #5e8b7e;
+  --secondary-color: #a7c4bc;
+  --dark-color: #2f5d62;
+  --light-color: #dfeeea;
+  --header-opacity: 0.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
