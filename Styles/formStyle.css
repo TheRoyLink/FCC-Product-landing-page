@@ -1,0 +1,74 @@
+.contact-form-container {
+  background-color: #5e8b7e;
+}
+
+.inner-form {
+  position: relative;
+  z-index: 2;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-align: left;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  margin: 0px;
+  border-radius: 1.2rem;
+}
+
+.form-txtfield {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 7px;
+  font-size: 17px;
+  border-radius: 10px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-textarea {
+  min-height: 120px;
+  padding: 0.625rem;
+  resize: vertical;
+  color: #495057;
+  border-radius: 1rem;
+  font-size: 17px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-txtfield:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.submit-button {
+  padding: 0.75rem;
+  background: rgba(187, 235, 126, 0.651);
+  color: black;
+  font-size: 17px;
+  border-radius: 1.2rem;
+  width: 100px;
+  height: 50%;
+}

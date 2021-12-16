@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/Styles/MainStyle.css">
     <link rel="stylesheet" href="/Styles/navbarStyle.css">
     <link rel="stylesheet" href="/Styles/headerStyle.css">
+    <link rel="stylesheet" href="/Styles/videoSectionStyle.css">
+    <link rel="stylesheet" href="/Styles/formStyle.css">
     <script src="/script.js" defer></script>
 </head>
 
@@ -36,33 +38,43 @@
     </nav>
 
     <!-- HEADER / HEAD -->
-    <header>
+    <header class="header">
         <div class="header-inner">
             <div class="container">
-                <h5>RodAsh</h5>
                 <h1 class="intro-text">CREATE YOUY DIGITAL PRESENCE AND EXPAND TO
                     <span>EVERYONE</span>
                 </h1>
-
-                <!-- TODO Informacion section -->
-                <div>
-                    <ul>
-                        <li><a href="#">Web page design to conect with clients</a></li>
-                        <li><a href="#">Easy to use menus for your catalog</a></li>
-                        <li><a href="#">Consulting and service</a></li>
-                    </ul>
+                <p class="lead">
+                    Practical project-based webpages that are easy to understand and
+                    straight to the point with NO FLUFF
+                </p>
+                <a href="#" class="btn btn-primary">Contact Us!</a>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <img src="/media/website-optimization-512.png" alt="Web design logo">
+                    <!-- <i class="fas fa-cogs fa-4x"></i> -->
+                    <h3>#1</h3>
+                    <p>Web Design Desktop & Movil</p>
                 </div>
-
-                <!-- Contact us sections -->
-                <div>¡Contact us!</div>
+                <div class="stat">
+                    <!-- <i class="fas fa-graduation-cap fa-4x"></i> -->
+                    <img src="/media/qr-code-512.png" alt="qr code image">
+                    <h3>5+</h3>
+                    <p>QR Generations</p>
+                </div>
+                <div class="stat">
+                    <!-- <i class="fab fa-youtube fa-4x"></i> -->
+                    <img src="/media/online-support-512.png" alt="qr code image">
+                    <h3>1.6M</h3>
+                    <p>Consulting & Services</p>
+                </div>
             </div>
         </div>
     </header>
 
-
     <!-- TODO Demostration video -->
     <div>
-        <h3>Veelo tu mismo!</h3>
         <section id="how-it-works">
             <iframe id="video" height="315"
                 src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
@@ -72,30 +84,33 @@
 
     <!-- TODO Contact Form -->
 
-    <div>
-        <h3>Contact us here</h3>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input class="form-txtfield" type="text" id="txtlabel" name="name" placeholder="Enter your name here">
-            </div>
+    <div class="contact-form-container">
+        <div class="inner-form">
+            <h1>Contact us here</h1>
+            <form action="https://www.freecodecamp.com/email-submit">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input class="form-txtfield" type="text" id="txtlabel" name="name"
+                        placeholder="Enter your name here">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input class="form-txtfield" type="email" id="email" name="email" placeholder="Enter your email"
+                        required>
+                </div>
 
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input class="form-txtfield" type="email" id="email" name="email" placeholder="Enter your email"
-                    required>
-            </div>
+                <div class="form-group">
+                    <p>Email body</p>
+                    <textarea class="input-textarea" id="txtArea" name="txtAreaComment" value=""
+                        placeholder="Enter your comment here..."></textarea>
+                </div>
 
-            <div class="form-group">
-                <p>Email body</p>
-                <textarea class="input-textarea" id="txtArea" name="txtAreaComment" value=""
-                    placeholder="Enter your comment here..."></textarea>
-            </div>
+                <div class="form-group">
+                    <input type="button" class="submit-button" id="submit" name="btn" value="Submit">
+                </div>
+            </form>
+        </div>
 
-            <div class="form-group">
-                <input type="button" class="submit-button" id="submit" name="btn" value="Submit">
-            </div>
-        </form>
     </div>
 
     <!-- Footer -->
@@ -107,6 +122,10 @@
             <li><a href="#">Contact</a></li>
         </ul>
         <span>Copyright 2021, RodAsh</span>
+        <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/smalllikeart"
+                title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/"
+                title="Flaticon">www.flaticon.es</a>
+        </div>
     </footer>
 
 </body>
