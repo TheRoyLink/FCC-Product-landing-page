@@ -1,0 +1,93 @@
+.introwebpage {
+  margin-top: 65px;
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.5)),
+    url(/media/istockphoto-1294021851-1024x1024.jpg) no-repeat center
+      center/cover;
+  height: 720px;
+  width: 100%;
+  text-align: center;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.inner-space {
+  margin: 0px 100px;
+}
+
+.container {
+  margin-top: 65px;
+}
+
+/* intro to wehpage */
+
+h1 {
+  font-size: 55px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: white;
+}
+
+p.lead {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.btn {
+  padding: 10px 30px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 25px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 2.4rem;
+  border: 1px transparent solid;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  /* background-color: var(--secondary-color); */
+  background-color: transparent !important;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Stats */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.stats img {
+  width: 80px;
+  height: 80px;
+}
+
+.stats i {
+  width: 100px;
+  height: 100px;
+}
+
+.stats h3 {
+  font-size: 50px;
+}
+
+.stats p {
+  font-size: 20px;
+  margin-top: 0;
+}
